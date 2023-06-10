@@ -1,4 +1,4 @@
-local c = require('onedark.palette')
+local c = require('primer_dark.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
