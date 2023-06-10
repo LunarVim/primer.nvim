@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('primer.theme')
+local theme = require('primer_dark.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
