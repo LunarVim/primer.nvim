@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('github.theme')
+local theme = require('primer.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'github'
+  vim.g.colors_name = 'primer_dark'
 
   theme.set_highlights()
 end
