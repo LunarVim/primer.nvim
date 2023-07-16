@@ -500,14 +500,15 @@ theme.set_highlights = function()
   hl(0, "NeogitRecentcommits", { fg = c.blue, bg = 'NONE' })
   hl(0, "NeogitBranch", { fg = c.orange, bg = 'NONE' })
   hl(0, "NeogitStagedchanges", { fg = c.blue, bg = 'NONE' })
-  hl(0, "NeogitDiffDelete", {link = "DiffDelete"})
   hl(0, "NeogitDiffAdd", {link = "DiffAdd"})
+  hl(0, "NeogitDiffAddHighlight", {link = "DiffAdd"})
+  hl(0, "NeogitDiffDelete", {link = "DiffDelete"})
+  hl(0, "NeogitDiffDeleteHighlight", {link = "DiffDelete"})
   hl(0, "gitcommitSummary", { fg = c.fg, bg = 'NONE' })
   hl(0, "gitcommitBranch", { fg = c.orange, bg = 'NONE' })
   hl(0, "gitcommitHeader", { fg = c.blue, bg = 'NONE' })
 
-
-
+  -- Rainbow
   hl(0, "TSRainbowRed", { fg = "#f85149", bg = 'NONE' })
   hl(0, "TSRainbowYellow", { fg = "#f2cc60", bg = 'NONE' })
   hl(0, "TSRainbowBlue", { fg = "#388bfd", bg = 'NONE' })
