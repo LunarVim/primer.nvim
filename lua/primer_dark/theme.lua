@@ -495,9 +495,16 @@ theme.set_highlights = function()
 
   -- Neogit
   hl(0, "NeogitRemote", { fg = c.orange, bg = 'NONE' })
+  hl(0, "NeogitUntrackedfiles", { fg = c.blue, bg = 'NONE' })
+  hl(0, "NeogitUnstagedchanges", { fg = c.blue, bg = 'NONE' })
+  hl(0, "NeogitRecentcommits", { fg = c.blue, bg = 'NONE' })
+  hl(0, "NeogitBranch", { fg = c.orange, bg = 'NONE' })
+  hl(0, "NeogitStagedchanges", { fg = c.blue, bg = 'NONE' })
   hl(0, "gitcommitSummary", { fg = c.fg, bg = 'NONE' })
   hl(0, "gitcommitBranch", { fg = c.orange, bg = 'NONE' })
   hl(0, "gitcommitHeader", { fg = c.blue, bg = 'NONE' })
+
+
 
   hl(0, "TSRainbowRed", { fg = "#f85149", bg = 'NONE' })
   hl(0, "TSRainbowYellow", { fg = "#f2cc60", bg = 'NONE' })
