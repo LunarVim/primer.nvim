@@ -437,6 +437,9 @@ theme.set_highlights = function()
   hl(0, "@constructor.lua", { fg = c.fg, bg = 'NONE' })
   hl(0, "@variable.lua", { fg = c.fg, bg = 'NONE' })
   hl(0, "@lsp.type.variable.lua", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@lsp.type.variable.lua", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@lsp.typemod.function.global.lua", { link = 'Function' })
+
 
   -- Typescript
   hl(0, "@lsp.type.interface.typescriptreact", { fg = c.orange, bg = 'NONE' })
