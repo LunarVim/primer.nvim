@@ -55,8 +55,8 @@ theme.set_highlights = function()
   hl(0, "EndOfBuffer", { fg = c.bg, bg = 'NONE' })
   hl(0, "NonText", { fg = c.dark_gray, bg = 'NONE' })
   hl(0, "TabLine", { fg = c.light_gray, bg = c.alt_bg })
-  hl(0, "TabLineSel", { fg = c.fg, bg = c.bg })
-  hl(0, "TabLineFill", { fg = c.fg, bg = c.alt_bg })
+  hl(0, "TabLineSel", { fg = c.alt_fg, bg = c.bg })
+  hl(0, "TabLineFill", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "WinSeparator", { fg = c.light_gray, bg = 'NONE' })
   hl(0, "Comment", { fg = c.light_gray, bg = 'NONE', italic = true, })
   hl(0, "Variable", { fg = c.fg, bg = 'NONE' })
@@ -529,3 +529,4 @@ theme.set_highlights = function()
 end
 
 return theme
+
