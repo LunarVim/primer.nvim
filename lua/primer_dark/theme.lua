@@ -469,8 +469,8 @@ theme.set_highlights = function()
   hl(0, "zshKSHFunction", { link = 'Function' })
 
   -- Lazy
-  hl(0, "LazyButton", { fg = c.alt_fg, bg = c.alt_bg })
-  hl(0, "LazyButtonActive", { fg = c.fg, bg = c.light_gray })
+  hl(0, "LazyButton", { fg = c.alt_fg, bg = "#2c3239" })
+  hl(0, "LazyButtonActive", { fg = c.fg, bg = "#3c4249" })
   hl(0, "LazyComment", { link = 'Comment' })
   hl(0, "LazyCommit", { fg = c.orange, bg = 'NONE' })
   hl(0, "LazyCommitIssue", { fg = c.blue, bg = 'NONE' })
