@@ -266,6 +266,10 @@ theme.set_highlights = function()
   hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.indent })
   hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.indent })
 
+  -- cursorword
+  hl(0, "MiniCursorword", { fg = 'NONE', bg = c.indent })
+  hl(0, "MiniCursorwordCurrent", { fg = 'NONE', bg = c.indent })
+
   hl(0, "MatchWord", { fg = 'NONE', bg = c.select })
   hl(0, "MatchWordCur", { fg = 'NONE', bg = c.select })
   hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
