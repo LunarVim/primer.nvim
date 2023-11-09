@@ -530,6 +530,10 @@ theme.set_highlights = function()
   hl(0, "CommandMode", { fg = "#f2cc60", bg = 'NONE' })
   hl(0, "ReplaceMode", { fg = "#f85149", bg = 'NONE' })
   hl(0, "SelectMode", { fg = "#db6d28", bg = 'NONE' })
+
+  -- Package Info
+  hl(0, "PackageInfoOutdatedVersion", { link = 'DiagnosticVirtualTextWarn' })
+  hl(0, "PackageInfoUpToDateVersion", { link = 'DiagnosticVirtualTextInfo' })
 end
 
 return theme
